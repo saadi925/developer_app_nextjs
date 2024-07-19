@@ -7,7 +7,7 @@ interface LinkBaseProps {
 export default function HeaderLink({href, name} : LinkBaseProps) {
   return (
 <li>
-<Link href={href} className='px-2 sm:px-3 py-1 font-semibold'>
+<Link href={href} className='px-2 sm:px-3 py-1 text-sm font-semibold'>
  {name}
  </Link>
 </li>
